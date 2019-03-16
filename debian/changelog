@@ -1,3 +1,9 @@
+restic (0.9.4-0~unstable~ppa2) unstable; urgency=medium
+
+  * Add HOME environment to fix build.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sun, 17 Mar 2019 00:30:21 +0800
+
 restic (0.9.4-0~unstable~ppa1) unstable; urgency=medium
 
   * Initial release.
