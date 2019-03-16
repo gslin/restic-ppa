@@ -1,3 +1,27 @@
+restic (0.9.4-0~unstable~ppa6) unstable; urgency=medium
+
+  * Add default PREFIX env.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sun, 17 Mar 2019 01:46:15 +0800
+
+restic (0.9.4-0~unstable~ppa5) unstable; urgency=medium
+
+  * Fix installation directory again.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sun, 17 Mar 2019 01:41:08 +0800
+
+restic (0.9.4-0~unstable~ppa4) unstable; urgency=medium
+
+  * Fix directory.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sun, 17 Mar 2019 01:33:44 +0800
+
+restic (0.9.4-0~unstable~ppa3) unstable; urgency=medium
+
+  * Add missing binary files.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sun, 17 Mar 2019 01:11:23 +0800
+
 restic (0.9.4-0~unstable~ppa2) unstable; urgency=medium
 
   * Add HOME environment to fix build.

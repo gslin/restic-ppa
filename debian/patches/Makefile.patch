@@ -2,20 +2,23 @@ Index: restic-0.9.4/Makefile
 ===================================================================
 --- restic-0.9.4.orig/Makefile
 +++ restic-0.9.4/Makefile
-@@ -1,5 +1,8 @@
+@@ -1,5 +1,9 @@
  .PHONY: all clean test restic
  
 +export HOME=/tmp
 +export PATH:=/usr/lib/go-1.11/bin:${PATH}
++PREFIX?=/usr
 +
  all: restic
  
  restic:
-@@ -7,7 +10,3 @@ restic:
- 
+@@ -8,6 +12,6 @@ restic:
  clean:
  	rm -f restic
--
+ 
 -test:
 -	go test ./cmd/... ./internal/...
 -
++install:
++	mkdir -p ${DESTDIR}${PREFIX}/bin
++	install -m 0755 -o root -g root restic ${DESTDIR}${PREFIX}/bin/restic
