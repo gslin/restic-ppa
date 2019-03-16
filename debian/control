@@ -1,0 +1,17 @@
+Source: restic
+Section: utils
+Priority: optional
+Maintainer: Gea-Suan Lin (PPA) <gslin@gslin.org>
+Build-Depends: debhelper (>=9), golang-1.11
+Standards-Version: 3.9.6
+Homepage: https://restic.net/
+Vcs-Git: https://github.com/restic/restic.git
+Vcs-Browser: https://github.com/restic/restic
+
+Package: restic
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Fast, secure, efficient backup program
+ restic is a backup program that is fast, efficient and secure. It supports
+ the three major operating systems (Linux, macOS, Windows) and a few smaller
+ ones (FreeBSD, OpenBSD).
