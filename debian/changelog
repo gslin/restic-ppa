@@ -1,3 +1,9 @@
+restic (0.9.6-0ubuntu1~unstable~ppa1) unstable; urgency=medium
+
+  * Packaging 0.9.6.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Sun, 08 Dec 2019 14:11:40 +0800
+
 restic (0.9.4-0~unstable~ppa6) unstable; urgency=medium
 
   * Add default PREFIX env.
